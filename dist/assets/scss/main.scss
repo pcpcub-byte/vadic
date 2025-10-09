@@ -1,0 +1,60 @@
+/****** Utils ******/
+@import "utils/variables";
+@import "utils/mixins";
+
+/******* Base *******/
+@import "base/base";
+@import "base/background";
+
+/******* Components ******/
+@import "components/avatar";
+@import "components/boostrap";
+@import "components/button";
+@import "components/badge";
+@import "components/typography";
+@import "components/dropdown";
+@import "components/border";
+@import "components/cards";
+@import "components/forms";
+@import "components/tables";
+@import "components/popup";
+
+/****** Layout ******/
+@import "layout/common";
+@import "layout/header";
+@import "layout/breadcrumb";
+@import "layout/footer";
+@import "layout/content";
+
+/******* Vendors ******/
+@import "vendors/select2";
+@import "vendors/datatables";
+@import "vendors/rangepicker-plugin";
+@import "vendors/meanmenu";
+
+/******* Pages ******/
+@import "pages/banner";
+@import "pages/testimonial";
+@import "pages/course";
+@import "pages/cart";
+@import "pages/checkout";
+@import "pages/chat";
+@import "pages/about-us";
+@import "pages/contact-us";
+@import "pages/become-an-instructor";
+@import "pages/add-course";
+@import "pages/pricing-plan";
+@import "pages/faq";
+@import "pages/blog";
+@import "pages/instructor";
+@import "pages/login";
+@import "pages/error-pages";
+@import "pages/dashboard";
+@import "pages/index-1";
+@import "pages/index-2";
+@import "pages/index-3";
+@import "pages/index-4";
+@import "pages/index-5";
+@import "pages/index-6";
+@import "pages/theme";
+@import "pages/category";

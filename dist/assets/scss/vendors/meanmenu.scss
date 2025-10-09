@@ -1,0 +1,52 @@
+/*============================
+  60.meanmenu
+============================*/
+
+.mean-container {
+    a.meanmenu-reveal {
+        display: none !important;
+    }
+    .mean-bar {
+        background: $white;
+    }
+    .mean-nav {
+        background: $white;
+        margin-top: 0;
+        ul {
+            li {
+                &.active {
+                    & > a {
+                        color: $primary;
+                    }
+                }
+                .submenu {
+                    li {
+                        &:last-child {
+                            margin-bottom: 12px;
+                        }
+                        a {
+                            font-size: $font-size-14;
+                            font-weight: $font-weight-normal;
+                            padding: 4px 4px 4px 16px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        & > ul {
+            display: block !important;
+            & > li {
+                border-bottom: 1px solid $border-color;
+            }
+            li {
+                a {
+                    color: $gray-600;
+                    font-weight: $font-weight-medium;
+                    padding: 16px 0;
+                    border: 0;
+                }
+            }
+        }
+    }
+}

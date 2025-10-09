@@ -1,0 +1,33 @@
+.contact-sec {
+    position: relative;
+    padding: 60px 0;
+    @include respond-below(lg){
+        padding: 50px 0;
+    }
+    .contact-info {
+        margin-bottom: 26px;
+    }
+    .contact-form {
+        background: $primary-gradient;
+    }
+    .contact-icon {
+        span {
+            display: block;
+            width: 60px;
+            height: 60px;
+            color: $primary-300;
+        }
+    }
+    .contact-map {
+        margin-top: 60px;
+     iframe {
+        filter: grayscale(1);
+        transition: .3s;
+        width: 100%;
+        height: 260px;
+        &:hover{
+        filter: grayscale(0);
+        }
+     }
+    }
+}
