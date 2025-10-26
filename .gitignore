@@ -5,8 +5,7 @@ node_modules
 out
 *.tgz
 
-# uploads
-uploads/
+
 
 # code coverage
 coverage
